@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | My Portfolio</title>
+    <!-- Font Awesome - Use this exact link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="#lightbox" class="logo">
+            <img
+              src="profile.jpg"
+              alt="Profile"
+              style="
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 2px solid #fff;
+              "
+            />
+            <span style="color: #fff">Ahtisham Ali</span>
+          </a>
+
+          <ul
+            style="
+              display: flex;
+              gap: 30px;
+              list-style: none;
+              margin: 0;
+              padding: 0;
+            "
+          >
+            <li style="text-align: center">
+              <a
+                href="index.html"
+                class="current"
+                title="Home"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  text-decoration: none;
+                "
+                ><i class="fa-solid fa-house" style="font-size: 1.2rem"></i
+                ><span style="font-size: 0.7rem; margin-top: 3px">Home</span></a
+              >
+            </li>
+            <li style="text-align: center">
+              <a
+                href="projects.html"
+                title="Projects"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  text-decoration: none;
+                "
+                ><i class="fa-solid fa-code" style="font-size: 1.2rem"></i
+                ><span style="font-size: 0.7rem; margin-top: 3px"
+                  >Projects</span
+                ></a
+              >
+            </li>
+            <li style="text-align: center">
+              <a
+                href="skills.html"
+                title="Skills"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  text-decoration: none;
+                "
+                ><i
+                  class="fa-solid fa-screwdriver-wrench"
+                  style="font-size: 1.2rem"
+                ></i
+                ><span style="font-size: 0.7rem; margin-top: 3px"
+                  >Skills</span
+                ></a
+              >
+            </li>
+            <li style="text-align: center">
+              <a
+                href="contact.html"
+                title="Contact"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  text-decoration: none;
+                "
+                ><i class="fa-solid fa-envelope" style="font-size: 1.2rem"></i
+                ><span style="font-size: 0.7rem; margin-top: 3px"
+                  >Contact</span
+                ></a
+              >
+            </li>
+            <li style="text-align: center">
+              <a
+                href="about.html"
+                title="About"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  text-decoration: none;
+                "
+                ><i class="fa-solid fa-user" style="font-size: 1.2rem"></i
+                ><span style="font-size: 0.7rem; margin-top: 3px"
+                  >About</span
+                ></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Lightbox -->
+    <a href="#" id="lightbox">
+      <img src="profile.jpg" alt="Profile Full" />
+    </a>
+
+    <!-- Hero Section -->
+    <section id="home-section">
+      <div class="container">
+        <h1>Welcome to My Portfolio! 👋</h1>
+        <h2>Hi, I'm <span>Ahtisham Ali</span></h2>
+        <p><b>2nd Year Software Engineering Student</b></p>
+        <p>
+            <b>
+          Passionate about C++, Object-Oriented Programming, and solving complex
+          problems.
+        </b>
+        </p>
+        <a href="projects.html" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Ahtisham Ali. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
